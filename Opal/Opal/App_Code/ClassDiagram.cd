@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyWebPagesStarterKit.Controls.CultureDropdown" Collapsed="true">
+    <Position X="62.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\CultureDropdown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.HomepageContent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="50.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAAAAQAAAAIAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\HomepageContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.HomepageContentDesigner" Collapsed="true">
+    <Position X="52" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAQAAAAAAAQAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\HomepageContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.LoginStatus" Collapsed="true">
+    <Position X="53.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\LoginStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.NCreateUserWizard" Collapsed="true">
+    <Position X="55.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\LoginStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.NPasswordRecovery" Collapsed="true">
+    <Position X="57.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\LoginStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.PageBaseClass" Collapsed="true">
+    <Position X="60.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAAgEAAAA=</HashCode>
+      <FileName>App_Code\Controls\PageBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.Pager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAABIwASQIQAAhIAAgAEBAACEARAAAECKAEAEAABAIA=</HashCode>
+      <FileName>App_Code\Controls\Pager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.ResizedImage" Collapsed="true">
+    <Position X="55.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQEBA=</HashCode>
+      <FileName>App_Code\Controls\ResizedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.SearchLink" Collapsed="true">
+    <Position X="60.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\SearchLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.SectionControlBaseClass" Collapsed="true">
+    <Position X="64.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAAgAAAAAAAQQAAAAEAAAAAAQAAAAAIAIAAA=</HashCode>
+      <FileName>App_Code\Controls\SectionControlBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.SidebarControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\SidebarControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.TagCloud" Collapsed="true">
+    <Position X="60.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEgAAAAIAAAMgAAAEASCAAACBAAAAAAABICEBIBJAQ=</HashCode>
+      <FileName>App_Code\Controls\TagCloud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.TagCloudData" Collapsed="true">
+    <Position X="62.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIQAAACAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\TagCloud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.CloudHasher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAABgAAAAAAAgAAAAIgAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\TagCloud.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.TemplatedContent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABCAABAAAAAAAAAAAAAAAAAAAEAAAAg=</HashCode>
+      <FileName>App_Code\Controls\TemplatedContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.TemplatedContentDesigner" Collapsed="true">
+    <Position X="50.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAQAAAAAAAQAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\TemplatedContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.UserImageAdmin" Collapsed="true">
+    <Position X="53.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAUAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\UserImageAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.WebSiteFooter" Collapsed="true">
+    <Position X="60.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\WebSiteFooter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Controls.WebSiteTitle" Collapsed="true">
+    <Position X="64.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Controls\WebSiteTitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmoticonFormatter" Collapsed="true">
+    <Position X="53.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\EmoticonFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfileCommon" Collapsed="true">
+    <Position X="50.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGQEAgAASAgCALIBAAIAAAAQAAQQDCAAQAIEQAAAg=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_Code\profile.cdcab7d2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenerateIDColumn" Collapsed="true">
+    <Position X="64.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\GenerateIDColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetDateTime" Collapsed="true">
+    <Position X="64.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>App_Code\GetDateTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GetFee" Collapsed="true">
+    <Position X="50.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\GetFee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebLogPing" Collapsed="true">
+    <Position X="57.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>App_Code\WebLogPing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.FormRewriterControlAdapter" Collapsed="true">
+    <Position X="60.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.RewriteFormHtmlTextWriter" Collapsed="true">
+    <Position X="57.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.FtbImageGalleryAdapter" Collapsed="true">
+    <Position X="62.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>App_Code\FtbImageGalleryAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Log" Collapsed="true">
+    <Position X="45.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Persistable&lt;T&gt;" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAASACAAAAAAAAAQAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Persistable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.PowerUserExt" Collapsed="true">
+    <Position X="64.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>App_Code\Providers\PowerUserExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.QueryString" Collapsed="true">
+    <Position X="52" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFIAAAAAAAAABBAECACABAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>App_Code\QueryString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.SearchResult" Collapsed="true">
+    <Position X="62.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAJAAAEAAAQAAAAAABAQEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Blog" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIgAAYAAACABIQCAEQAAgBAAAEAIgAEiEAQA0AAA=</HashCode>
+      <FileName>App_Code\Sections\Blog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Blogroll" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAAAAAAAAAIAAEAAAAAAAAAEAAAECAA0AAA=</HashCode>
+      <FileName>App_Code\Sections\Blogroll.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.ContactForm" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAIAARAAQAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\ContactForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.DownloadList" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAABAAIAAAAAAAAAAEAAEAAAAAAAAEAQAgAAA=</HashCode>
+      <FileName>App_Code\Sections\DownloadList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.EasyControl" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\EasyControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.EventList" Collapsed="true">
+    <Position X="20.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAABAAAAAEAAAAQIAAAAAEAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\EventList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Forum" Collapsed="true">
+    <Position X="23" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAACAAAAIAAAARQAAAAAAAIEAAACIGQBEIgAkAgA=</HashCode>
+      <FileName>App_Code\Sections\Forum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Gallery" Collapsed="true">
+    <Position X="27.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAEAAIAAACiAAAAAAAAEAAAIAAAAEAAAkAIA=</HashCode>
+      <FileName>App_Code\Sections\Gallery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Guestbook" Collapsed="true">
+    <Position X="32" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAkIAA=</HashCode>
+      <FileName>App_Code\Sections\Guestbook.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.HtmlContent" Collapsed="true">
+    <Position X="36.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\HtmlContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.LinkList" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgECAAkAAA=</HashCode>
+      <FileName>App_Code\Sections\LinkList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.NewsList" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAEAAAkAAA=</HashCode>
+      <FileName>App_Code\Sections\NewsList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.RssDisplay" Collapsed="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\RssDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Section&lt;T&gt;" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACQAAAAAAAAAAAAQAAAAAAAAAAA0AAA=</HashCode>
+      <FileName>App_Code\Sections\Section.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.SectionLoader" Collapsed="true">
+    <Position X="50.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Sections\SectionLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Subpages" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\Subpages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.TagCloud" Collapsed="true">
+    <Position X="29.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAQAAAABAAAAEAAAAAAAAAGQAA0AAA=</HashCode>
+      <FileName>App_Code\Sections\TagCloud.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.TwitterStatusFeed" Collapsed="true">
+    <Position X="34.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgIAAAgAAAAACQAAAAAAAAAAAAAgAAAEAAAgAAA=</HashCode>
+      <FileName>App_Code\Sections\TwitterStatusFeed.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyWebPagesStarterKit.VideoContent" Collapsed="true">
+    <Position X="38.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAA4AAAAAAAAAAAAgEAAAACAQIAAAAggAA=</HashCode>
+      <FileName>App_Code\Sections\VideoContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Sidebar" Collapsed="true">
+    <Position X="47.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAEAAAIAAABACAAAEAAAAAABAEAQAgAAAAAAAAAAAg=</HashCode>
+      <FileName>App_Code\Sidebar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.ChannelData" Collapsed="true">
+    <Position X="57.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAABAACAAwAEAAAAIAAAAAAAAAEAAIAAAAQAAAAIA=</HashCode>
+      <FileName>App_Code\Sidebar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.SitemapEditor" Collapsed="true">
+    <Position X="55.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAMBAAEAAAAAAAAAQAEAgAACQIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\SitemapEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.TextFormatter" Collapsed="true">
+    <Position X="52" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAJAAAAAAAAgAAAAAAAAAAoACAAA=</HashCode>
+      <FileName>App_Code\TextFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Validation" Collapsed="true">
+    <Position X="55.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.WebPage" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAGAIEAAABgAGAAEAAAAAAAAAEAQAgIAEAACAICgAA=</HashCode>
+      <FileName>App_Code\WebPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.WebSite" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAgUAEBoAAEgACAQAgAAAAAKhAGQAAAAQAgAQAEghAA=</HashCode>
+      <FileName>App_Code\WebSite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.WebsiteNotReadyException" Collapsed="true">
+    <Position X="62.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\WebSite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportToExcel.ExportToExcel" Collapsed="true">
+    <Position X="59" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\ExportToExcel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Providers.CustomRoleProvider" Collapsed="true">
+    <Position X="64.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEEAAwAACEAQCAAEAABAAAAAAAAAIAAAAFEAEQAAA=</HashCode>
+      <FileName>App_Code\Providers\CustomRoleProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Providers.CustomXmlMembershipProvider" Collapsed="true">
+    <Position X="50.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAGAAIAYCGgQiMEcQUAAAQAQIAAIqCHCEEAAkAAAQ=</HashCode>
+      <FileName>App_Code\Providers\CustomXmlMembershipProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Providers.SaltedHash" Collapsed="true">
+    <Position X="59" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAIAAQAAAICAAAEAAAAgAEBAAABAAAEAAAA=</HashCode>
+      <FileName>App_Code\Providers\CustomXmlMembershipProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Providers.OurMembershipUser" Collapsed="true">
+    <Position X="59" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAMGQEAgIESUgGAroD0AIAAIAQAEQCLSBAQAYEUAAgg=</HashCode>
+      <FileName>App_Code\Providers\CustomXmlMembershipProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyWebPagesStarterKit.Providers.CustomXmlSitemapProvider" Collapsed="true">
+    <Position X="52" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Providers\CustomXmlSitemapProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArvidfavaSMS.ShortMessageService" Collapsed="true">
+    <Position X="52" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAAAAEAAAAAAAAAAAAAAAACAAAIBAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\ShortMessageService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zamani.WebMsgBox" Collapsed="true">
+    <Position X="59" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAABAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\WebMsgBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.SoapSmsQueuableImplementationService" Collapsed="true">
+    <Position X="57.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EGYGAABSCM0AAAAhQGSAhLCQPoqGLaAvTIKxYkBBwBI=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.CustomerReturnIncomingFormat" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAABQAAEAAAAAABAiAAACA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.DatedCustomerReturnIncomingFormat" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.enqueueCompletedEventArgs" Collapsed="true">
+    <Position X="55.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getMessagesCompletedEventArgs" Collapsed="true">
+    <Position X="53.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getMessageIdCompletedEventArgs" Collapsed="true">
+    <Position X="52" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getRealMessageStatusesCompletedEventArgs" Collapsed="true">
+    <Position X="64.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getAllMessagesWithNumberCompletedEventArgs" Collapsed="true">
+    <Position X="52" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getMessagesWithNumberCompletedEventArgs" Collapsed="true">
+    <Position X="59" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getCreditCompletedEventArgs" Collapsed="true">
+    <Position X="62.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getAllMessagesCompletedEventArgs" Collapsed="true">
+    <Position X="50.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.enqueueWithGatewayCompletedEventArgs" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getMessageStatusesCompletedEventArgs" Collapsed="true">
+    <Position X="57.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagfaWebReference.getMessageStatusCompletedEventArgs" Collapsed="true">
+    <Position X="55.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.BulkSoapImplService" Collapsed="true">
+    <Position X="55.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UKMBQAnBAXuAKEeiGmBQ3JBYcggQRQARDEFj4xaQEkA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getProvincesCompletedEventArgs" Collapsed="true">
+    <Position X="62.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getCountByCityProvinceCompletedEventArgs" Collapsed="true">
+    <Position X="57.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getCountByPrefixCompletedEventArgs" Collapsed="true">
+    <Position X="60.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getCountByPostCodeCompletedEventArgs" Collapsed="true">
+    <Position X="59" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.addRecipientsByPrefixCompletedEventArgs" Collapsed="true">
+    <Position X="53.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.addRecipientsByPostCodeCompletedEventArgs" Collapsed="true">
+    <Position X="52" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.removeRecipientsCompletedEventArgs" Collapsed="true">
+    <Position X="53.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.submitBulkCompletedEventArgs" Collapsed="true">
+    <Position X="59" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getCitiesOfProvinceCompletedEventArgs" Collapsed="true">
+    <Position X="55.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.createBulkCompletedEventArgs" Collapsed="true">
+    <Position X="60.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.addRecipientsByCityProvinceCompletedEventArgs" Collapsed="true">
+    <Position X="50.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getPriceCompletedEventArgs" Collapsed="true">
+    <Position X="60.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.magfa.sms.getBulkStatusCompletedEventArgs" Collapsed="true">
+    <Position X="53.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CookComputing.MetaWeblog.Enclosure" Collapsed="true">
+    <Position X="52" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.Source" Collapsed="true">
+    <Position X="59" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.UserBlog" Collapsed="true">
+    <Position X="60.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAIAAAAAACAAAAAAAA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.UserInfo" Collapsed="true">
+    <Position X="62.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAChBAAAgAAAAAAAAAAAIAAAAAACAAAAAAQA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.Category" Collapsed="true">
+    <Position X="50.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACQAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAIA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.Post" Collapsed="true">
+    <Position X="57.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAQCAAAAIAIAAAEAAQAAAAAAQAAAAAAAAAAUA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.MediaObject" Collapsed="true">
+    <Position X="53.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CookComputing.MetaWeblog.MediaObjectInfo" Collapsed="true">
+    <Position X="55.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAABAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\MetaWeblogAPI.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="MyWebPagesStarterKit.ISection" Collapsed="true">
+    <Position X="50.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAEQAAAAAAAAAAA0AAA=</HashCode>
+      <FileName>App_Code\Sections\ISection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyWebPagesStarterKit.ISectionAdmin" Collapsed="true">
+    <Position X="52" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Sections\ISectionAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyWebPagesStarterKit.ISidebarObject" Collapsed="true">
+    <Position X="53.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>App_Code\Sections\ISidebarObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MyWebPagesStarterKit.Controls.PagerMode" Collapsed="true">
+    <Position X="50.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAA=</HashCode>
+      <FileName>App_Code\Controls\Pager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MyWebPagesStarterKit.RoleNames" Collapsed="true">
+    <Position X="52" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAACAAAAIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>App_Code\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MyWebPagesStarterKit.ViewMode" Collapsed="true">
+    <Position X="55.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MyWebPagesStarterKit.RssElements" Collapsed="true">
+    <Position X="53.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>App_Code\Sidebar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MagfaWebReference.enqueueCompletedEventHandler" Collapsed="true">
+    <Position X="57.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getMessagesCompletedEventHandler" Collapsed="true">
+    <Position X="60.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getMessageIdCompletedEventHandler" Collapsed="true">
+    <Position X="59" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getRealMessageStatusesCompletedEventHandler" Collapsed="true">
+    <Position X="55.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getAllMessagesWithNumberCompletedEventHandler" Collapsed="true">
+    <Position X="62.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getMessagesWithNumberCompletedEventHandler" Collapsed="true">
+    <Position X="50.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getCreditCompletedEventHandler" Collapsed="true">
+    <Position X="57.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getAllMessagesCompletedEventHandler" Collapsed="true">
+    <Position X="60.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.enqueueWithGatewayCompletedEventHandler" Collapsed="true">
+    <Position X="59" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getMessageStatusesCompletedEventHandler" Collapsed="true">
+    <Position X="64.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MagfaWebReference.getMessageStatusCompletedEventHandler" Collapsed="true">
+    <Position X="62.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\magfawebreference.977e754.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getProvincesCompletedEventHandler" Collapsed="true">
+    <Position X="53.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getCountByCityProvinceCompletedEventHandler" Collapsed="true">
+    <Position X="52" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getCountByPrefixCompletedEventHandler" Collapsed="true">
+    <Position X="55.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getCountByPostCodeCompletedEventHandler" Collapsed="true">
+    <Position X="53.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.addRecipientsByPrefixCompletedEventHandler" Collapsed="true">
+    <Position X="53.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.addRecipientsByPostCodeCompletedEventHandler" Collapsed="true">
+    <Position X="52" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.removeRecipientsCompletedEventHandler" Collapsed="true">
+    <Position X="57.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.submitBulkCompletedEventHandler" Collapsed="true">
+    <Position X="59" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getCitiesOfProvinceCompletedEventHandler" Collapsed="true">
+    <Position X="50.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.createBulkCompletedEventHandler" Collapsed="true">
+    <Position X="55.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.addRecipientsByCityProvinceCompletedEventHandler" Collapsed="true">
+    <Position X="50.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getPriceCompletedEventHandler" Collapsed="true">
+    <Position X="52" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.magfa.sms.getBulkStatusCompletedEventHandler" Collapsed="true">
+    <Position X="64.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Zamani\AppData\Local\Temp\Temporary ASP.NET Files\opal\f64c2eb4\73915d94\Sources_App_WebReferences\sms.386e28ab.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

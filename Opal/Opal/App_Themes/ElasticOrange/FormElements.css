@@ -1,0 +1,72 @@
+﻿/* form elements */
+input.button 
+{
+   border-radius: 5px;
+   font-family: B Traffic, Traffic, Tahoma;
+   font-size: 13px;
+   color: #000000;
+   background: url(_images/menunav_bg.jpg) repeat-x;
+   border: solid 1px #FFFFFF;
+   margin: 2px 2px 2px 2px;
+   height:27px;
+}
+
+input.button:hover
+{
+   background: url(_images/menunav_bg_hover.jpg) repeat-x;
+}
+
+input.textbox 
+{
+   font-size: 13px;
+   font-family: B Traffic, Traffic, Tahoma;
+   border-radius: 5px;
+    width: 267px;
+    border: solid 1px #0094FF;
+   margin: 2px 2px 2px 2px;
+}
+
+input.textboxAdmin 
+{
+   font-size: 13px;
+   font-family: B Traffic, Traffic, Tahoma;
+   border-radius: 5px;
+    width: 167px;
+    border: solid 1px #0094FF;
+   margin: 2px 2px 2px 2px;
+}
+
+textarea 
+{
+   font-size: 13px;
+   font-family: B Traffic, Traffic, Tahoma;
+   -webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+    width: 367px;
+    height: 200px;
+    border: solid 1px #0094FF;
+   margin: 2px 2px 2px 2px;
+}
+
+select.sel
+{
+    width: 367px;
+    border: solid 1px #0094FF;
+}
+
+select
+{
+   margin: 2px 2px 2px 2px;
+}
+
+.error
+{
+    color: #FF0000;
+}
+
+
+/* end formelements */

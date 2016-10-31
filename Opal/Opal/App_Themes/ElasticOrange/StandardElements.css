@@ -1,0 +1,84 @@
+﻿html, body, form {
+	height: 100%;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	background-color: #FFFFFF;
+	direction:rtl
+}
+
+table 
+{
+    border-collapse: collapse;
+    border: none 0px;
+    padding: 0;
+    margin: 0;
+	direction:rtl
+}
+
+img
+{
+    border: none 0px;
+    padding: 0;
+    margin: 0;
+}
+
+td
+{
+    vertical-align: top;
+}
+
+td.field 
+{
+
+}
+
+td.fieldlabel
+{
+	width: 120px;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.framed 
+{
+    padding: 11px;
+    background-color: #daebff;
+}
+
+ul 
+{
+	margin-left: 30px;
+    list-style-type: square;
+    color: #898989;
+}
+
+.odd  
+{
+    background-color: #FFFFFF;
+}
+
+.even
+{
+    background-color: #FAF3EA;
+}
+
+fieldset 
+{
+	background: url(_images/menu_bg.jpg) repeat;
+   border-color:#0094FF; border-style:solid; border-radius:5px;border-width:1px;
+}
+
+legend
+{
+    padding-left:10px; padding-right:10px; padding-bottom:3px; padding-top:3px;
+    margin-right:15px; margin-bottom:10px; margin-top:10px;
+    background-image:url('../_images/legend-backgnd.jpg');
+    font-size:13.5px;
+    border-style:solid; border-color:#0094FF; border-radius:5px; border-width:1px;
+}

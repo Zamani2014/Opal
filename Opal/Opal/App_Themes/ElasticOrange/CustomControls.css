@@ -1,0 +1,75 @@
+﻿/* pager */
+table.pager 
+{
+    background-color: #E5F1F8;
+    border: solid 1px #663200;
+}
+
+table.pager td 
+{
+    padding: 3px;
+    vertical-align: middle;
+}
+/* end pager */
+
+/* buttons */
+a.btnRight 
+{
+    display: block;
+    width: 6px;
+    height: 12px;
+    background-image: url(_images/icon_next.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.btnLeft 
+{
+    display: block;
+    width: 6px;
+    height: 12px;
+    background-image: url(_images/icon_back.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.btnUp
+{
+    display: block;
+    width: 12px;
+    height: 6px;
+    background-image: url(_images/icon_up.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.btnDown
+{
+    display: block;
+    width: 12px;
+    height: 6px;
+    background-image: url(_images/icon_down.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.btnEdit
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(_images/icon_edit.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a.btnDelete
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(_images/icon_delete.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* end buttons*/

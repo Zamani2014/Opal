@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body{font-family:tahoma;background:#f2f2f2;direction:rtl;color:#FFF}ul,li{list-style:none; padding:0px; margin:0px; float:right; width:302px;}li{display:inline;width:148px;float:left;}li a{font-size:13px;line-height:19px;display:block;width:131px;float:left;padding:0 9px 0 0; background:url(http://internet.ir/c.png) no-repeat right; margin:0 10px 0 0;text-align:right}#wrapper{width:960px;height:630px;font-size:12px;line-height:22px;}.idc{width:302px;padding:5px;float:right;margin:4px;background:#f5a30b;height:155px;}h3{ width:302px; background:url(http://internet.ir/titr.png) no-repeat 150px 0px; height:40px; padding:0px; margin:0px}.c2{background:#dc572e}.c3{background:#751868}.c3 h3{ background-position:150px -40px}.c4{background:#82b02a}.c4 h3{ background-position:150px -80px}.c5{background:#438fe4}.c5 h3{ background-position:150px -120px}.c6{background:#c21c40}.c6 h3{ background-position:150px -160px}.c7{background:#3ea2ab}.c7 h3{ background-position:150px -200px}.c8{background:#623ebc}.c8 h3{ background-position:150px -240px}.c9{background:#179850}.c9 h3{ background-position:150px -280px}.c10 h3{ background-position:150px -320px}a{color:#FFF;text-decoration:none}a:hover{text-decoration:none;background-color: rgba(0,0,0,.2);}.more2{height:20px; margin-top:97px; position:relative; text-align:left;}.more2:hover{text-decoration:none;background-color: rgba(0,0,0,.2);}a.stop:hover{text-decoration:underline;background-color: #f2f2f2;}a.fa:hover{text-decoration: none;background-color: #f2f2f2;}#foo{ width:952px; height:70px;float:right; margin-right:4px; color:#777}#foo span{ width:942px;}#foo a{ color:#333}.red{color:#c00} font{ font-size:13px}.head{font-size:13px;font-weight:bold;line-height:20px}.head span{width:302px; height:160px;}form{padding:0px; margin:0px;}input, textarea, select, .postform {background: #efefef;border : 1px solid #d4d4d4;font: normal 12px tahoma;padding : 2px;margin : 2px;color : #333333;-moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}.ddd {background:#f2f2f2; border:none; color:#F00; padding : 1px;text-align: center;margin : 1px;}#foo a.stop{ cursor:pointer; color:#F00}.more{margin:10px 0 0 0}radio:hover { color: white !important; } #se ul li {list-style:none;}</style><!--[if IE]> <style type="text/css"> a:hover { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); } </style><![endif]--> 
+
+  <script type="text/javascript">
+	   
+        function chooseOne()
+        {
+            var randomChoice = Math.round(Math.random() * 5);
+
+            if(randomChoice == 0)
+            {
+                document.getElementById("s1").checked = true;
+                eng = "http://www.rismoon.com/search-fa.html?tab=web&q=";
+            }
+            else if (randomChoice == 1)
+            {
+                document.getElementById("s2").checked = true;
+                 eng = "http://www.mahjoo.com/index.php?w=2&q=";
+            }
+          
+            else if (randomChoice == 2)
+            {
+                document.getElementById("s3").checked = true;
+                 eng = "http://biaab.ir/en/result.php?p=1&sa=1&sq=";
+              
+            }
+            else if (randomChoice == 3)
+            {
+                document.getElementById("s4").checked = true;
+                eng = "http://search.jamasp.ir/s.asp?q=";
+            }
+            else if (randomChoice == 4)
+            {
+                document.getElementById("s5").checked = true;
+                eng = "http://datayab.com/s.php?t=search&se=";
+
+            }
+            
+            else if (randomChoice == 5)
+            {
+                document.getElementById("s6").checked = true;
+                eng = "http://parsijoo.ir/websearch?q=";
+
+            }
+            }
+      function utf8(wide) {
+  var c, s;
+  var enc = "";
+  var i = 0;
+  while(i<wide.length) {
+    c= wide.charCodeAt(i++);
+    // handle UTF-16 surrogates
+    if (c>=0xDC00 && c<0xE000) continue;
+    if (c>=0xD800 && c<0xDC00) {
+      if (i>=wide.length) continue;
+      s= wide.charCodeAt(i++);
+      if (s<0xDC00 || c>=0xDE00) continue;
+      c= ((c-0xD800)<<10)+(s-0xDC00)+0x10000;
+    }
+    // output value
+    if (c<0x80) enc += String.fromCharCode(c);
+    else if (c<0x800) enc += String.fromCharCode(0xC0+(c>>6),0x80+(c&0x3F));
+    else if (c<0x10000) enc += String.fromCharCode(0xE0+(c>>12),0x80+(c>>6&0x3F),0x80+(c&0x3F));
+    else enc += String.fromCharCode(0xF0+(c>>18),0x80+(c>>12&0x3F),0x80+(c>>6&0x3F),0x80+(c&0x3F));
+  }
+  return enc;
+}
+
+var hexchars = "0123456789ABCDEF";
+
+function toHex(n) {
+  return hexchars.charAt(n>>4)+hexchars.charAt(n & 0xF);
+}
+
+var okURIchars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
+
+function encodeURIComponentNew(s) {
+  var s = utf8(s);
+  var c;
+  var enc = "";
+  for (var i= 0; i<s.length; i++) {
+    if (okURIchars.indexOf(s.charAt(i))==-1)
+      enc += "%"+toHex(s.charCodeAt(i));
+    else
+      enc += s.charAt(i);
+  }
+  return enc;
+}
+
+            
+    </script>
+
+	<script type="text/javascript">function mp(){window.open("http://peyvandha.ir/","_parent")};var myVar=setTimeout("mp()",24000);</script>
+	</head><body onclick="javascript: idc();" onload="chooseOne();"><table cellpadding="0" cellspacing="0" height="100%" width="100%"><tbody><tr><td align="center"><div style="background-color:#751868;    font-size:16px;    height:41px;    padding-top:15px;    width:950px;"><span style="line-height: 23px;"><b>دسترسۍ به تارنمای فراخوانده شده امكان پذیر نمۍ باشد. <a style="color:yellow;" href="http://internet.ir/" target="_blank">جهت رسیدگی به گزارشات و شکایات اینجا کلیک کنید.</a></b></span></div><div id="wrapper"><hr style="border: none;background-color: #ccc;color: #ccc;height: 2px;margin-bottom: 2px; width: 99%;"><div class="idc c10"><h3></h3><div style="text-align: right;"><ul><li id="se"><a href="http://rismoon.com/" target="_blank"><input onclick="eng = this.value;" name="sengines" value="http://rismoon.com/search-fa.html?tab=web&amp;q=" id="s1" type="radio">ریسمون</a></li><li><a href="http://mahjoo.com/" target="_blank"><input checked="checked" onclick="eng = this.value;" name="sengines" value="http://mahjoo.com/index.php?w=2&amp;q=" id="s2" type="radio">مهجو</a></li><li><a href="http://biaab.ir/" target="_blank"><input onclick="eng = this.value;" name="sengines" value="http://biaab.ir/en/result.php?p=1&amp;sa=1&amp;sq=" id="s3" type="radio">بیاب</a></li><li><a href="http://search.jamasp.ir/" target="_blank"><input onclick="eng = this.value;" name="sengines" value="http://search.jamasp.ir/s.asp?q=" id="s4" type="radio">جاماسپ</a></li><li><a href="http://datayab.com/" target="_blank"><input onclick="eng = this.value;" name="sengines" value="http://datayab.com/s.php?t=search&amp;se=" id="s5" type="radio">دیتایاب</a></li><li><a href="http://parsijoo.ir/" target="_blank"><input onclick="eng = this.value;" name="sengines" value="http://parsijoo.ir/websearch?q=" id="s6" type="radio"> پارسی جو</a></li></ul><br><form name="searchform" onsubmit="return dosearch();"><center><input name="searchterms" id="searchterms" style="width: 180px;" type="text"><input name="SearchSubmit" value="جستجو" onload="" onclick="window.location = eng + encodeURIComponentNew(document.getElementById('searchterms').value); return false;" type="submit"></center></form></div></div><div class="idc c4"><a target="_blank" href="http://peyvandha.ir/6-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://mail.iran.ir/">ایمیل ایران</a></li><li><a target="_blank" href="http://maildata.ir/">جی میل دیتا</a></li><li><a target="_blank" href="http://mihanmail.ir/">میهن میل</a></li><li><a target="_blank" href="http://tebyan.net/newindex.aspx?pid=31445">ایمیل تبیان</a></li><li><a target="_blank" href="http://vatanmail.ir/">وطن میل</a></li><li><a target="_blank" href="http://chmail.ir/">چاپارمیل</a></li><li><a target="_blank" href="http://mailfa.com/">میل فا</a></li><li><a target="_blank" href="http://mail.post.ir/">ایمیل پست</a></li><li><a target="_blank" href="http://pushmail.irancell.ir/">ایمیل ایرانسل</a></li><li><a target="_blank" href="http://emeil.ir/">ایمیل موقت</a></li></ul><a href="http://peyvandha.ir/6-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div class="idc c9"><a target="_blank" href="http://peyvandha.ir/1-1.htm" class="more"><h3 style="left:10px;"></h3></a><ul><li><a target="_blank" href="http://tablightv.com/">شبکه تبلیغ</a></li><li><a target="_blank" href="http://tanzil.net/">قرآن</a></li><li><a target="_blank" href="http://hawzah.ir/">حوزه علمیه</a></li><li><a target="_blank" href="http://zitova.ir/">ذی طوی</a></li><li><a target="_blank" href="http://mouood.org/">موعود</a></li><li><a target="_blank" href="http://x-shobhe.ir/">پاسخگویی به شبهات</a></li><li><a target="_blank" href="http://rasekhoon.net/">راسخون</a></li><li><a target="_blank" href="http://tebyan.net/">تبیان</a></li><li><a target="_blank" href="http://talkhandak.com/">تلخندک</a></li><li><a target="_blank" href="http://nasrtv.com/">نصر تی وی</a></li></ul><a href="http://peyvandha.ir/1-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div class="idc c2"><a target="_blank" href="http://peyvandha.ir/3-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://saj.ir/">ازدواج</a></li><li><a target="_blank" href="http://ksabz.ir/">خانواده سبز</a></li><li><a target="_blank" href="http://namaknews.ir/">نمک نیوز</a></li><li><a target="_blank" href="http://chibepazam.com/">چی بپزم؟</a></li><li><a target="_blank" href="http://ravanshenasan.com/">روانشناسان</a></li><li><a target="_blank" href="http://qalameson.org/">مشاوره</a></li><li><a target="_blank" href="http://10006016.ir/">کودکان ایران</a></li><li><a target="_blank" href="http://varzeshclub.com/">باشگاه ورزش</a></li><li><a target="_blank" href="http://iranbluetooth.ir/">شبکه بلوتوث ایران</a></li><li><a target="_blank" href="http://healthtube.ir/">فیلم های سلامت</a></li></ul><a href="http://peyvandha.ir/3-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div class="idc c3"><a target="_blank" href="http://peyvandha.ir/5-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://persiangig.com/">پرشین گیگ</a></li><li><a target="_blank" href="http://picofile.com/">پیکو فایل</a></li><li><a target="_blank" href="http://fars.tv/">فارس تی وی</a></li><li><a target="_blank" href="http://mehr.ir/">رسانه مهر</a></li><li><a target="_blank" href="http://softgozar.com/">سافت گذر</a></li><li><a target="_blank" href="http://iransoftcenter.ir/">مرکز نرم افزار ایران</a></li><li><a target="_blank" href="http://yekmobile.com/">یک موبایل</a></li><li><a target="_blank" href="http://ir-tci.org/">موبایل اول</a></li><li><a target="_blank" href="http://unicomp.ir/">فیلم های آموزشی</a></li><li><a target="_blank" href="http://poss.ir/">نرم افزار های متن باز</a></li></ul><a href="http://peyvandha.ir/5-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div class="idc c8"><a target="_blank" href="http://peyvandha.ir/6-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://parsiblog.ir/">پارسی بلاگ</a></li><li><a target="_blank" href="http://javanblog.ir/">جوان بلاگ</a></li><li><a target="_blank" href="http://blogsky.com/">بلاگ اسکای</a></li><li><a target="_blank" href="http://persianblog.ir/">پرشین بلاگ</a></li><li><a target="_blank" href="http://etaha.com/">نرم افزار چت ایطاها</a></li><li><a target="_blank" href="http://hamweblogi.com/">هم وبلاگی</a></li><li><a target="_blank" href="http://afsaran.ir/">شبکه افسران</a></li><li><a target="_blank" href="http://netiran.info/">سرزمین مجازی</a></li><li><a target="_blank" href="http://barnamenevis.org/">برنامه نویس</a></li><li><a target="_blank" href="http://shopkeeper.ir/">شاپ کیپر</a></li></ul><a href="http://peyvandha.ir/6-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div class="idc c5"><a target="_blank" href="http://peyvandha.ir/4-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://roshd.ir/">رشد</a></li><li><a target="_blank" href="http://magiran.com/">نشریات ایران</a></li><li><a target="_blank" href="http://bookroom.ir/">پاتوق کتاب</a></li><li><a target="_blank" href="http://njavan.ir/">نخبگان جوان</a></li><li><a target="_blank" href="http://salem.ir/">پایگاه های سلامت</a></li><li><a target="_blank" href="http://yadbegir.com/">یادبگیر</a></li><li><a target="_blank" href="http://irandoc.ac.ir/">مدارک علمی ایران</a></li><li><a target="_blank" href="http://irden.com/">پایگاه دندان پزشکان</a></li><li><a target="_blank" href="http://hooshyar.com/">فرهنگ لغت هوشیار</a></li><li><a target="_blank" href="http://farsilookup.com/">لغت نامه</a></li></ul><a href="http://peyvandha.ir/4-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div class="idc c6"><a target="_blank" href="http://peyvandha.ir/2-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://farsnews.ir/">خبرگزاری فارس</a></li><li><a target="_blank" href="http://iqna.ir/">خبرگزاری قرآنی ایران</a></li><li><a target="_blank" href="http://mehrnews.ir/">خبرگزاری مهر</a></li><li><a target="_blank" href="http://irna.ir/">ایرنا</a></li><li><a target="_blank" href="http://isna.ir/">ایسنا</a></li><li><a target="_blank" href="http://iribnews.ir/">واحد مرکزی خبر</a></li><li><a target="_blank" href="http://tabnak.ir/">تابناک</a></li><li><a target="_blank" href="http://yjc.ir/">باشگاه خبرنگاران</a></li><li><a target="_blank" href="http://rajanews.com/">رجانیوز</a></li><li><a target="_blank" href="http://kayhannews.ir/">روزنامه کیهان</a></li><a href="http://peyvandha.ir/2-1.htm" target="_blank"><div class="more2">ادامه››</div></a></ul></div><div class="idc c7"><a target="_blank" href="http://peyvandha.ir/7-1.htm" class="more"><h3></h3></a><ul><li><a target="_blank" href="http://spgc.ir/">مجتمع پارس جنوبی</a></li><li><a target="_blank" href="http://khatam.com/">قرارگاه خاتم الانبیا</a></li><li><a target="_blank" href="http://glxphone.com/">گوشی جی ال ایکس</a></li><li><a target="_blank" href="http://shahrvandonline.com/">فروشگاه شهروند</a></li><li><a target="_blank" href="http://bankha.ir/">پرداخت الکترونیک</a></li><li><a target="_blank" href="http://compare.shopkeeper.ir/">سرویس های پستی</a></li><li><a target="_blank" href="http://nano.ir/">فناوری نانو</a></li><li><a target="_blank" href="http://isa.ir/">سازمان فضایی ایران</a></li><li><a target="_blank" href="http://webtarin.com/">وب ترین</a></li><li><a target="_blank" href="http://narnic.com/">نارنیک</a></li></ul><a href="http://peyvandha.ir/7-1.htm" target="_blank"><div class="more2">ادامه››</div></a></div><div id="foo"><hr style="border: none;background-color: #ccc;color: #ccc;height: 2px;"><span><a class="fa" href="http://internet.ir/crime_index.html" target="_blank">فهرست مصادیق محتوای مجرمانه</a> | <a class="fa" href="http://filter.internet.ir/" target="_blank"><b>گزارش مردمی از&nbsp; تخلفات تارنماهای اینترنتی</b></a> | <a class="fa" href="http://internet.ir/other_countries.html" target="_blank">نظارت بر اینترنت در دیگر کشورها</a> | <a class="fa" target="_blank" href="http://rafefilter.internet.ir/">درخواست رسیدگی به شکایات و رفع فیلتر</a><form name="counter"><div> [ این صفحه بصورت خودکار پس از<input value="6.1" size="3" name="d2" class="ddd"> ثانیه وارد پیوندها می شود. (<a class="stop" onclick="javascript: idc();">ماندن در این صفحه</a>) ]</div></form><script>var ms=0;var se=24;document.counter.d2.value="24";function d(){if(ms<=0){ms=9;se-=1}if(se<=-1){ms=0;se+=1}else{ms-=1}document.counter.d2.value=se+"."+ms;setTimeout("d()",100)}d();function idc(){ms=00;se=0;clearTimeout(myVar)}</script></span></div></div></td></tr></tbody></table></body></html>

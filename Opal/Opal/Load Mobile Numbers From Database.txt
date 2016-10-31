@@ -1,0 +1,28 @@
+        #region Reading From SQL Database
+        // Code for Load Mobile Numbers From Database
+        
+        SqlConnection cn = new SqlConnection(@"Data Source=(local);Initial Catalog=SMSMagfaDB;Integrated Security=True");
+        cn.Open();
+
+        string strsql = "SELECT * FROM Sheet1";
+        SqlCommand cmd = new SqlCommand(strsql, cn);
+
+        SqlDataReader dr = cmd.ExecuteReader();
+
+        long[] mobiles = new long[12500];
+
+        for (long i = 1; i <= 12500; i++)
+        {
+                while (dr.Read())
+                {
+                    mobiles[i] = GetNumber(dr["MNumber"].ToString());
+                    string MobileNumber = mobiles[i].ToString();
+
+                    long result = enqueue(useProxy, proxyAddress, proxyUsername, proxyPassword, username, password, domain, N, senderNumber, MobileNumber, MessageTextBox.Text)[0];
+                    if (result < ShortMessageService.MAX_VALUE)
+                        ResultLabel.Text = ShortMessageService.generateDateString() + "Error code: " + result + ", " + ShortMessageService.getDescriptionForCode((int)result);
+                    else
+                        ResultLabel.Text = ShortMessageService.generateDateString() + result;
+                }
+        }
+        #endregion

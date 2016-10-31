@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<LogData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogEntries>
+    <LogEntry>
+      <PageTitle>/Opal/App_Themes/_images/legend-backgnd.jpg</PageTitle>
+      <Created>01/03/2014 04:10:04 ب.ظ</Created>
+      <Error>System.Web.HttpException (0x80004005): File does not exist.
+   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)</Error>
+      <ServerVariables>
+        <string>ALL_HTTP: HTTP_CACHE_CONTROL:max-age=0, HTTP_CONNECTION:keep-alive, HTTP_ACCEPT:image/webp,*/*;q=0.8, HTTP_ACCEPT_ENCODING:gzip,deflate,sdch, HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8,fa;q=0.6, HTTP_COOKIE:ASP.NET_SessionId=4zndik4rwcmy1ghz5hvjinkv; .ASPXFORMSAUTH=8F2F4B0ADB5E174DAA2E213DDAAF8127610A7FD376D851560CF0005AD82862E10018C106C2F3F76E89FAC982BE4740AE5566716DA35E8B8410BEDD9171E7D3CA2DD70E795D238D48B8E360154CBECB1B3886A62FE36218BD7E64837DBF5A9525CBBFFC20941A1B30654099BFEFF4C321B138AB988049CCD3492EDF2AA98B8663, HTTP_HOST:localhost:7132, HTTP_REFERER:http://localhost:7132/Opal/services/default.aspx, HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36, </string>
+        <string>ALL_RAW: Cache-Control: max-age=0, Connection: keep-alive, Accept: image/webp,*/*;q=0.8, Accept-Encoding: gzip,deflate,sdch, Accept-Language: en-US,en;q=0.8,fa;q=0.6, Cookie: ASP.NET_SessionId=4zndik4rwcmy1ghz5hvjinkv; .ASPXFORMSAUTH=8F2F4B0ADB5E174DAA2E213DDAAF8127610A7FD376D851560CF0005AD82862E10018C106C2F3F76E89FAC982BE4740AE5566716DA35E8B8410BEDD9171E7D3CA2DD70E795D238D48B8E360154CBECB1B3886A62FE36218BD7E64837DBF5A9525CBBFFC20941A1B30654099BFEFF4C321B138AB988049CCD3492EDF2AA98B8663, Host: localhost:7132, Referer: http://localhost:7132/Opal/services/default.aspx, User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36, </string>
+        <string>APPL_PHYSICAL_PATH: H:\Softwares\Collaboration Softwares\Mobile Phone VAS\Web Service Based\Arvidfava Opal\Opal\</string>
+        <string>AUTH_TYPE: Forms</string>
+        <string>AUTH_USER: admin</string>
+        <string>LOGON_USER: Zamani-PC\Zamani</string>
+        <string>REMOTE_USER: admin</string>
+        <string>CONTENT_LENGTH: 0</string>
+        <string>LOCAL_ADDR: ::1</string>
+        <string>PATH_INFO: /Opal/App_Themes/_images/legend-backgnd.jpg</string>
+        <string>PATH_TRANSLATED: H:\Softwares\Collaboration Softwares\Mobile Phone VAS\Web Service Based\Arvidfava Opal\Opal\App_Themes\_images\legend-backgnd.jpg</string>
+        <string>REMOTE_ADDR: ::1</string>
+        <string>REMOTE_HOST: ::1</string>
+        <string>REQUEST_METHOD: GET</string>
+        <string>SCRIPT_NAME: /Opal/App_Themes/_images/legend-backgnd.jpg</string>
+        <string>SERVER_NAME: localhost</string>
+        <string>SERVER_PORT: 7132</string>
+        <string>SERVER_PORT_SECURE: 0</string>
+        <string>SERVER_PROTOCOL: HTTP/1.1</string>
+        <string>URL: /Opal/App_Themes/_images/legend-backgnd.jpg</string>
+        <string>HTTP_CACHE_CONTROL: max-age=0</string>
+        <string>HTTP_CONNECTION: keep-alive</string>
+        <string>HTTP_ACCEPT: image/webp,*/*;q=0.8</string>
+        <string>HTTP_ACCEPT_ENCODING: gzip,deflate,sdch</string>
+        <string>HTTP_ACCEPT_LANGUAGE: en-US,en;q=0.8,fa;q=0.6</string>
+        <string>HTTP_COOKIE: ASP.NET_SessionId=4zndik4rwcmy1ghz5hvjinkv; .ASPXFORMSAUTH=8F2F4B0ADB5E174DAA2E213DDAAF8127610A7FD376D851560CF0005AD82862E10018C106C2F3F76E89FAC982BE4740AE5566716DA35E8B8410BEDD9171E7D3CA2DD70E795D238D48B8E360154CBECB1B3886A62FE36218BD7E64837DBF5A9525CBBFFC20941A1B30654099BFEFF4C321B138AB988049CCD3492EDF2AA98B8663</string>
+        <string>HTTP_HOST: localhost:7132</string>
+        <string>HTTP_REFERER: http://localhost:7132/Opal/services/default.aspx</string>
+        <string>HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36</string>
+      </ServerVariables>
+    </LogEntry>
+  </LogEntries>
+</LogData>

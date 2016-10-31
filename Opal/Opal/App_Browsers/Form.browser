@@ -1,0 +1,13 @@
+<browsers>
+	<browser refID="Default">
+		<controlAdapters>
+
+			<adapter controlType="System.Web.UI.HtmlControls.HtmlForm"
+					 adapterType="Opal.FormRewriterControlAdapter" />
+			
+			<adapter controlType="FreeTextBoxControls.ImageGallery"
+					 adapterType="Opal.FtbImageGalleryAdapter" />
+			
+		</controlAdapters>
+	</browser>
+</browsers>

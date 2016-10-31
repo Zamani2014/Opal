@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode>
+    <siteMapNode url="~/administration/default.aspx" title="مدیریت">
+      <siteMapNode url="~/administration/NewsManagement/default.aspx" title="مدیریت خبرها" />
+      <siteMapNode url="~/administration/GetCredit.aspx" title="میزان اعتبار خط مگفا" />
+      <siteMapNode url="~/administration/MagfaLineSettings.aspx" title="تنظیمات خط مگفا" />
+      <siteMapNode url="~/administration/FormsManagement/default.aspx" title="مدیریت فرم های الکترونیکی" />
+      <siteMapNode url="~/administration/website.aspx" title="برپا سازی سامانه مدیریت محتوا" />
+      <siteMapNode url="~/administration/sections.aspx" title="تخصیص صفحه و بخش" />
+      <siteMapNode url="~/administration/navigation.aspx" title="صفحات و اهبری" />
+      <siteMapNode url="~/administration/users.aspx" title="مدیریت کاربر" />
+    </siteMapNode>
+    <siteMapNode title="خدمات ارزش افزوده تلفن همراه" url="~/services/default.aspx" visible="False" pageId="6b2dded7-9732-4495-8c52-e36a1d4d6b87" />
+    <siteMapNode title="صفحه اصلی" url="~/homepage.aspx" visible="True" pageId="7e08380a-490b-4a93-82b6-6360edcd8a25" />
+    <siteMapNode title="فرم های چاپی" url="~/printable.aspx" visible="True" pageId="71bb88f0-3d14-42d9-84e5-9ed1b2b4655a" />
+    <siteMapNode title="فرمها و خدمات الکترونیکی" url="~/forms.aspx" visible="True" pageId="fcad523b-f10d-4d32-a38a-5436b20aa13c">
+      <siteMapNode title="فرم عمومی ثبت نام در سامانه" url="~/userregistration.aspx" visible="True" pageId="b15bffc0-be21-4137-9d1d-1ea2a5b0e713" />
+      <siteMapNode title="فرم پرداخت الکترونیکی حساب" url="~/eforms/epayment.aspx" visible="True" pageId="12f6de30-e926-40b5-a3a8-54f4f77dfbdc" />
+      <siteMapNode title="فرم ثبت فیش واریزی" url="~/eforms/recieptform.aspx" visible="True" pageId="fd944a33-dcd1-489a-b716-7bbe704f651d" />
+      <siteMapNode title="فرم سفارش خط اختصاصی" url="~/eforms/LineOrder.aspx" visible="True" pageId="2a8b2f99-941c-41ab-98e2-12e89c52e5bc" />
+      <siteMapNode title="فرم شارژ الکترونیکی سیم کارت" url="~/eForms/simrecharge.aspx" visible="True" pageId="cfac67be-2200-4066-bd6a-3e1bb4ff69ee" />
+      <siteMapNode title="فرم درخواست نمایندگی فروش" url="~/eforms/agents.aspx" visible="True" pageId="6214a089-51ea-40e7-a7b5-66b3828d0f92" />
+      <siteMapNode title="فرم عمومی تماس با ما" url="~/contactus.aspx" visible="True" pageId="c1d7cbe2-8d85-4eb4-9331-7ef322e38d98" />
+      <siteMapNode title="فرم الکترونیکی واریز اعتبار" url="~/eforms/creditform.aspx" visible="True" pageId="90a184a5-a119-4ae9-b320-11530e15e418" />
+      <siteMapNode title="فرم نظرات انتقادات و پیشنهادات" url="~/customervoice.aspx" visible="True" pageId="f2c7184d-60a4-4cf5-a33c-a755c16f1919" />
+      <siteMapNode title="فرم سفارش کاتالوگ و مستندات" url="~/eforms/catalog.aspx" visible="True" pageId="03614be6-7605-4991-a743-48b4adbc3130" />
+      <siteMapNode title="فرم گزارش خطاهای فنی" url="~/bugtracker.aspx" visible="True" pageId="505c8f75-464d-41b8-8c2f-dda584957432" />
+    </siteMapNode>
+    <siteMapNode title="تعرفه ها و قیمت گذاری" url="~/pricing.aspx" visible="True" pageId="dc5e1537-b261-46e3-bd42-c28a5b9d125a">
+      <siteMapNode title="تعرفه خطوط مخابراتی" url="~/line.aspx" visible="True" pageId="c415885c-f068-4b66-b18f-6930eda4d1f1" />
+      <siteMapNode title="تعرفه پنل های اینترنتی" url="~/panels.aspx" visible="True" pageId="3ce4d2c7-9e62-44be-a2a2-d740221d7ff5" />
+      <siteMapNode title="تعرفه ارسال پیامک" url="~/sendfee.aspx" visible="True" pageId="892bf230-38b2-4015-8d16-161590f9d975" />
+      <siteMapNode title="تعرفه سرویس های ویژه" url="~/specialservices.aspx" visible="True" pageId="5747831f-9a54-4b64-bc90-6cddb2e13d3f" />
+      <siteMapNode title="تعرفه پنل های نمایندگی" url="~/agentspricing.aspx" visible="True" pageId="40dd4f18-a1e9-486f-a719-8169d1c4b9d1" />
+    </siteMapNode>
+    <siteMapNode title="خدمات و راهکارها" url="~/services.aspx" visible="True" pageId="2254aa31-9da4-4044-879c-279f98c11ca4">
+      <siteMapNode title="پنل های اینترنتی خدمات ارزش افزوده" url="~/internetpanels.aspx" visible="True" pageId="2e9d002a-c98f-490d-9c24-230a5a10c495" />
+      <siteMapNode title="طراحی و پیاده سازی سامانه های سفارشی" url="~/smssystems.aspx" visible="True" pageId="1a016302-2cc7-4b1f-a76b-47c6769973e7" />
+      <siteMapNode title="جمع آوری و طراحی بانک های اطلاعاتی" url="~/databases.aspx" visible="True" pageId="923b8ff1-7c9e-4071-8c3e-8bf8eebea455" />
+      <siteMapNode title="راه حل های مبتنی بر تلفن همراه" url="~/mobilesolutions.aspx" visible="True" pageId="c8db5ba3-3dd6-48fb-85fb-f3ac22717426" />
+      <siteMapNode title="تبلیغات پیامکی" url="~/smsads.aspx" visible="True" pageId="8a8a6681-4699-4e56-bad3-63e64584126b" />
+    </siteMapNode>
+    <siteMapNode title="محصولات" url="~/products.aspx" visible="True" pageId="837df550-8aff-48b5-b62f-3b0316d22329">
+      <siteMapNode title="سامانه خدمات ارزش افزوده تلفن همراه" url="~/mobilevassystem.aspx" visible="True" pageId="a02217f7-ce89-4761-91e4-e8637f9e53da" />
+      <siteMapNode title="بانکهای اطلاعاتی" url="~/databanks.aspx" visible="True" pageId="82d531d4-6402-41e7-9ed4-ad4ad7ce1321" />
+    </siteMapNode>
+    <siteMapNode title="امکانات سامانه" url="~/systemtools.aspx" visible="True" pageId="79eedb26-a109-403f-a41c-e60f42340248">
+      <siteMapNode title="پیوند ها" url="~/links.aspx" visible="True" pageId="20f547c5-2391-4534-aa2c-6cb552463149" />
+      <siteMapNode title="اخبار و مقاله ها" url="~/news.aspx" visible="True" pageId="b02ae942-1441-4ba2-8195-b1056bf1c01b" />
+      <siteMapNode title="خوراک خبری" url="~/feeds.aspx" visible="True" pageId="e6146e79-ff9a-4b58-bff4-8c6a9fa7b7e6" />
+      <siteMapNode title="جستجو در محتوای سامانه" url="~/search.aspx" visible="True" pageId="fe326696-279a-4374-8043-0a7f3cc8b330" />
+      <siteMapNode title="سمعی و بصری" url="~/audiovideo.aspx" visible="True" pageId="07f505e9-bc0b-415d-ae36-e569b59a2981" />
+      <siteMapNode title="پست الکترونیکی" url="~/emails.aspx" visible="True" pageId="6e636fe3-ba5d-41f1-a811-a34eb4311ae5" />
+      <siteMapNode title="دریافت  نرم افزار" url="~/dawnloads.aspx" visible="True" pageId="19d4a197-8c2b-46c4-a4a7-60c1d1d620a0" />
+      <siteMapNode title="دریافت فایل ها و مستندات" url="~/docs.aspx" visible="True" pageId="9883637c-a9b8-4864-a03e-43eaf786ff35" />
+      <siteMapNode title="آمار و اطلاعات سامانه" url="~/statistics.aspx" visible="True" pageId="bd436e0b-4aba-4f6d-8f80-e611c73ea474" />
+    </siteMapNode>
+    <siteMapNode title="اطلاعات حقوقی سامانه" url="~/legal.aspx" visible="True" pageId="661f7fe9-43b5-485a-abe3-13c29834881a">
+      <siteMapNode title="سلب مسئولیت" url="~/disclaimer.aspx" visible="True" pageId="caa84172-c24a-47ae-84e0-feb01b11f036" />
+      <siteMapNode title="موافقتنامه سطح خدمات" url="~/sla.aspx" visible="True" pageId="61af3405-c26f-47c7-9eca-6ce005fd4eb0" />
+      <siteMapNode title="سیاست حفط اسرار" url="~/privacypolicy.aspx" visible="True" pageId="bfa81a16-f982-4ae0-8ee4-0d2bba8486e8" />
+      <siteMapNode title="شرایط و قوانین استفاده" url="~/temrsofuse.aspx" visible="True" pageId="32f8f1fd-a848-4c37-835f-c5f6b837ab51" />
+      <siteMapNode title="امنیت" url="~/security.aspx" visible="True" pageId="d42063bd-a740-42bc-899c-c58f190f014f" />
+      <siteMapNode title="علائم و نام های تجاری" url="~/trademarks.aspx" visible="True" pageId="b205b749-f706-418b-8f47-580a80ea1dba" />
+      <siteMapNode title="ارائه بازخوردها" url="~/feedback.aspx" visible="True" pageId="34a1945e-8307-452b-9cc8-cd2d225c2d37" />
+      <siteMapNode title="حق مولف و نشر" url="~/copyright.aspx" visible="True" pageId="56c2ac05-b1b8-455f-9828-62d1daced5ed" />
+    </siteMapNode>
+    <siteMapNode title="پشتیبانی فنی" url="~/techsupport.aspx" visible="True" pageId="ccaf8500-4e2d-464d-b39a-de57aeaf13bc" />
+    <siteMapNode title="گفتگوی زنده با کارشناسان" url="~/livechat.aspx" visible="True" pageId="2d5a22bb-2062-4cdf-bcfa-d0d32e62dcb9" />
+    <siteMapNode title="سوالات متداول" url="~/fandq.aspx" visible="True" pageId="6549337c-f84c-4c75-9142-f36cbe2fa784" />
+    <siteMapNode title="همکاری با ما" url="~/cooperation.aspx" visible="True" pageId="d690fc18-9a35-48e6-a638-67ed9acb3ece">
+      <siteMapNode title="نمایندگی فروش" url="~/agentsinfo.aspx" visible="True" pageId="8aabbac5-983e-491d-a8c2-800859f0100d" />
+      <siteMapNode title="تبادل لینک و بنر" url="~/linksexchange.aspx" visible="True" pageId="2534dc1c-f596-44cf-a615-bbc652f42c0f" />
+      <siteMapNode title="فروش رایطه ای" url="~/affiliate.aspx" visible="True" pageId="2088536e-b548-41ef-91ff-9b24fe310aa2" />
+    </siteMapNode>
+    <siteMapNode title="تماس با ما" url="~/contactwithus.aspx" visible="True" pageId="9a02c729-6312-473b-81c2-16db6ad3ebbf" />
+  </siteMapNode>
+</siteMap>

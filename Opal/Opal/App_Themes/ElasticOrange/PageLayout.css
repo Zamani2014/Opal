@@ -1,0 +1,216 @@
+﻿div#head
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 91px;
+    width: 100%;
+    background: #FFFFFF url(_images/header_bg.jpg) repeat-x top left;
+}
+
+div.titleBG
+{
+	 background: #FFFFFF url(_images/img_header.jpg) no-repeat top left;
+	 height: 91px;
+	 width: 542px;
+}
+
+div#websiteTitle
+{
+	position: absolute;
+	top: 28px;
+	left: 234px;
+	color: #000;
+	font-size: 22px;
+}
+
+div#utilities
+{
+	position: absolute;
+	top: 4px;
+	left: 26px;
+}
+
+div#utilities a
+{
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#utilities a:hover
+{
+    color: #ffbc00;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+table#mainTable
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: 100%;
+}
+
+td#left
+{
+    width: 200px;
+	background: url(_images/menu_bg.jpg);
+	background-repeat:repeat;
+}
+
+td#right
+{
+    width: 100%;
+}
+
+div#navigation
+{
+	position: relative;
+	top: 0px;
+	left: -2px;
+	color: #FFFFFF;
+}
+
+div#navigation a img
+{
+    display: none;
+}
+
+div.sidebartop 
+{
+    padding-top: 20px;
+}
+
+div.sidebar 
+{
+	position: relative;
+	top: 0px;
+	margin-left: 5px;
+	margin-right:5px;
+    border: solid 1px #7f7f7f;
+}
+
+div.sidebar h2
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    height: 23px;
+    color: #21007F;
+    background: #FFFFFF url(_images/title_bg.gif) repeat-x top left;
+}
+
+div.sidebar ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+div.sidebar ul li.item
+{
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+div.sidebar ul li.item a 
+{
+    text-decoration: none;
+    color: #000000;
+    padding-right: 7px;
+}
+
+div.sidebar ul li.item a:hover
+{
+    text-decoration: none;
+    color: #808080;
+    padding-right: 7px;
+}
+
+
+div.sidebar ul li.sidebaritemseparator
+{
+	list-style-type: none;
+	margin-left: 7px;
+	margin-right: 7px;
+	border-bottom: solid 1px #7f7f7f;
+	margin-bottom: 2px;
+	width: 174px;
+	height: 2px;
+}
+
+td#right
+{
+    margin: 0;
+    padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	vertical-align: top;
+	background-color: #FFFFFF;
+}
+
+div#footer
+{
+    clear:both;
+    width: 100%;
+    height: 44px;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #000000;
+    background: #ffd767 url(_images/footer_bg.jpg) repeat-x;
+}
+
+div#breadcrumbs
+{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: B Traffic, Traffic, Verdana;
+	padding-top: 2px;
+    background: #FFFFFF url(_images/title_bg.gif) repeat-x top left;
+    height: 23px;
+}
+
+div#breadcrumbs .node
+{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+div#breadcrumbs .currentNode
+{
+    color: #000000;
+}
+
+div#breadcrumbs .separator
+{
+    color: #000000;
+    padding-right: 5px;
+}
+
+#contentContainer div.sectionsettings 
+{
+    margin-top: 11px;
+    margin-bottom: 5px;
+    background-color: #daebff;
+    width: 100%;
+    /*border: solid 1px #898989;*/
+    /*padding: 3px;*/
+}
+
+#contentContainer div.sectionsettings table
+{
+
+}
+
+#contentContainer div.sectionsettings table td
+{
+	padding: 0px 18px 8px 18px;
+    vertical-align: middle;
+}
+
