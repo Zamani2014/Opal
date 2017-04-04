@@ -35,13 +35,13 @@ Minimum requirements:
 
 ## Usage example
 
-...sh
+'''sh
 1. Send Bulk SMS
 2. Send and receive Data Message
 2. Send Multimedia Message
 3. Send and receive SMS
 4. and some more ...
-...
+'''
 
 ## Development setup
 
