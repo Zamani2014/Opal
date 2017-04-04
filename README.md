@@ -1,31 +1,66 @@
-# opalvas
+# Opal
+> Mobile Phone Value Added Services (VAS) System
 
-Project Title
-Opal - Mobile Phone Value Added Services (VAS) System
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url]
 
-Project Type
-An Iranian Mobile Phone VAS System (Back-End & Front-End Development)
-
-Project Status: Finished, Offline
-Project Date: March, 2012
-
-Project Description
 Mobile value-added services (VAS) is one of the most used services in the world. Opal is one of these systems, it was designed for Arvidfava IT Engeering Company (http://www.Arvidfava.ir). The project is in Farsi and is designed for use in mobile phone operators in Iran. To use this system, you need to have a web service from an Iranian operator. The system is open source and you can download it from here.
 
-Client 
-Arvidfava IT Engineering Company. (http://www.Arvidfava.ir)
+![](https://github.com/Zamani2014/opalvas/blob/master/some-screenshot/Home_www_4771_ir.png)
 
-Project Specifications
-Based on MWPSK CMS (https://mywebpagesstarterkit.codeplex.com/) as a WAF (Web Application Framework)
-.NET Platform
-C# / ASP.NET Web Forms / ASP.NET Web Services
-Based on SMPP v3.4
-Repository Design Pattern
-ADO.NET DA & LINQ
-XML Databases / MS SQL Server 2008 Database
-HTML / CSS / Javascript Front-End Development
+## Installation
 
-Visit My Official Website : http://www.AliZamani.net
+OS X & Linux:
 
-Screenshots
-Download Screenshots : Opal-Screenshot.rar
+```sh
+npm install my-crazy-module --save
+```
+
+Windows:
+
+```sh
+edit autoexec.bat
+```
+
+## Usage example
+
+A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+
+## Development setup
+
+Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+
+```sh
+make install
+npm test
+```
+
+## Release History
+
+* 0.2.1
+    * CHANGE: Update docs (module code remains unchanged)
+* 0.2.0
+    * CHANGE: Remove `setDefaultXYZ()`
+    * ADD: Add `init()`
+* 0.1.1
+    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
+* 0.1.0
+    * The first proper release
+    * CHANGE: Rename `foo()` to `bar()`
+* 0.0.1
+    * Work in progress
+
+## Meta
+
+Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+
+Distributed under the XYZ license. See ``LICENSE`` for more information.
+
+[https://github.com/yourname/github-link](https://github.com/dbader/)
+
+[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/datadog-metrics
+[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
