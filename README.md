@@ -14,13 +14,21 @@ Mobile value-added services (VAS) is one of the most used services in the world.
 OS X & Linux:
 
 ```sh
-npm install my-crazy-module --save
+Minimum requirements:
+1. Mono platform Support
+2. Apache HTTP Server
+3. Microsoft SQL Server 2008
+4. Web Service from an Iranian SMS Operator such as [Magfa](https://messaging.magfa.com/ui/)
 ```
 
 Windows:
 
 ```sh
-edit autoexec.bat
+Minimum requirements:
+1. Dot Net Platform 3 Support
+2. Microsoft SQL Server 2008 
+3. ASP.NET 4
+4. Web Service from an Iranian SMS Operator such as [Magfa](https://messaging.magfa.com/ui/)
 ```
 
 ## Usage example
