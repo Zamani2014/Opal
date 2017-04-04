@@ -35,7 +35,13 @@ Minimum requirements:
 
 ## Usage example
 
-
+...sh
+1. Send Bulk SMS
+2. Send and receive Data Message
+2. Send Multimedia Message
+3. Send and receive SMS
+4. and some more ...
+...
 
 ## Development setup
 
@@ -47,24 +53,13 @@ Minimum requirements:
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+Add LICENSE and docs exported from CodePlex
 
 ## Meta
 
 Alireza Zamani – [@AlirezaZamani67](https://twitter.com/AlirezaZamani67) – Mail@AliZamani.net
 
-Distributed under the GNU General Public License version 3 (GPLv3) license. See ``LICENSE`` for more information.
+Distributed under the GNU General Public License version 3 (GPLv3) license.
 
 [https://github.com/Zamani2014/](https://github.com/Zamani2014/)
 
