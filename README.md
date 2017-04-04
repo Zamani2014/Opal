@@ -19,29 +19,30 @@ Minimum requirements:
 2. Apache HTTP Server
 3. Microsoft SQL Server 2008
 4. Web Service from an Iranian SMS Operator such as [Magfa](https://messaging.magfa.com/ui/)
+5. Shared Hosting Environment Or Dedicated Server
 ```
 
 Windows:
 
 ```sh
 Minimum requirements:
-1. Dot Net Platform 3 Support
+1. Dot Net Platform 4 Support
 2. Microsoft SQL Server 2008 
 3. ASP.NET 4
 4. Web Service from an Iranian SMS Operator such as [Magfa](https://messaging.magfa.com/ui/)
+5. Shared Hosting Environment Or Dedicated Server
 ```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
 ```sh
-make install
-npm test
+Minimum requirements:
+1. MS Visual Studio / MonoDevelop
+2. MS SQL Server 2008 / Express
 ```
 
 ## Release History
@@ -61,11 +62,11 @@ npm test
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Alireza Zamani – [@AlirezaZamani67](https://twitter.com/AlirezaZamani67) – Mail@AliZamani.net
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the GNU General Public License version 3 (GPLv3) license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/Zamani2014/](https://github.com/Zamani2014/)
 
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
