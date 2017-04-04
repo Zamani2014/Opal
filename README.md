@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 Mobile value-added services (VAS) is one of the most used services in the world. Opal is one of these systems, it was designed for Arvidfava IT Engeering Company (http://www.Arvidfava.ir). The project is in Farsi and is designed for use in mobile phone operators in Iran. To use this system, you need to have a web service from an Iranian operator. The system is open source and you can download it from here.
-
+### The project is currently in Farsi (Persian Language).
 ![](https://github.com/Zamani2014/opalvas/blob/master/some-screenshot/Home_www_4771_ir.png)
 
 ## Installation
